@@ -4,6 +4,7 @@ An R script for Illumina BeadArray Data Processing.
 The repository provides means for the processing of Illumina BeadArray bead level data to produce heatmaps, volcano plots, Venn diagrams for any specified combination of controls/treatments and p-values/log fold changes.
 
 ## Contents
+Repository contains each version in a separate folder. Current version is marked accordingly ("-current").
 #### Main Script
 _code_Analysis_Illumina_BeadArray_from_IDAT-MAIN-v20.R
 

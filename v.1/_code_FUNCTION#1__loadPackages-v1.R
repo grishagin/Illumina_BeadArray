@@ -1,0 +1,15 @@
+loadPackages<-function(){
+        require(limma)
+        require(beadarray)
+        require(arrayQualityMetrics)
+        require(statmod)
+        require(tcltk)
+        require(illuminaMousev2.db)
+        require(gplots)
+        require(xlsx)
+        require(XLConnect)
+        require(VennDiagram)
+        require(annotate)
+        require(stringr)
+        require(gtools)
+}
