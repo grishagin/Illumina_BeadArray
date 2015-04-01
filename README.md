@@ -6,25 +6,25 @@ The repository provides means for the processing of Illumina BeadArray bead leve
 ## Contents
 Repository contains each version in a separate folder. Current version is marked accordingly ("-current").
 #### Main Script
-_code_Analysis_Illumina_BeadArray_from_IDAT-MAIN-v20.R
+_code_Analysis_Illumina_BeadArray_from_IDAT-MAIN-vX.R
 
 #### Dependencies 
-_code_FUNCTION#1__loadPackages-v1.R  
-_code_FUNCTION#2_read.norm.filt.data-v1.R  
-_code_FUNCTION#3_QC.CDKN1A.PPIA.HPRT-v3.R  
-_code_FUNCTION#4_designMatrix.contMatrix.prep-v1.R  
-_code_FUNCTION#5_fit.data-v1.R  
-_code_FUNCTION#6_volcano.plot-v1.R  
-_code_FUNCTION#7_venn-v1.R  
-_code_FUNCTION#8_vennDiagram.mod-v1.R  
-_code_FUNCTION#9_top.tables-v1.R  
-_code_FUNCTION#10_produce.heatmaps-v1.R  
-_code_FUNCTION#11_prep.heatmap.sort.data-v1.R  
-_code_FUNCTION#12_plot.heatmap-v1.R  
-_code_FUNCTION#13_heatmap.2.mod-v1.R  
+_code_FUNCTION#1__loadPackages-vX.R  
+_code_FUNCTION#2_read.norm.filt.data-vX.R  
+_code_FUNCTION#3_QC.CDKN1A.PPIA.HPRT-vX.R  
+_code_FUNCTION#4_designMatrix.contMatrix.prep-vX.R  
+_code_FUNCTION#5_fit.data-vX.R  
+_code_FUNCTION#6_volcano.plot-vX.R  
+_code_FUNCTION#7_venn-vX.R  
+_code_FUNCTION#8_vennDiagram.mod-vX.R  
+_code_FUNCTION#9_top.tables-vX.R  
+_code_FUNCTION#10_produce.heatmaps-vX.R  
+_code_FUNCTION#11_prep.heatmap.sort.data-vX.R  
+_code_FUNCTION#12_plot.heatmap-vX.R  
+_code_FUNCTION#13_heatmap.2.mod-vX.R  
 
 #### Template for the sample description 
-samples.description.txt
+samples.description-TEMPLATE.txt
 
 ## Method description
 The script prompts for the folder with bead level data in the form of *.idat files, and a description of the samples as a text file.  
