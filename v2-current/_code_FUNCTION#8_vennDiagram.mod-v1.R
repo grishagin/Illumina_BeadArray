@@ -78,14 +78,14 @@ vennDiagram.mod<-function (object, include = "both", names = NULL, mar = rep(1,4
                 }
                 switch(nsets, rect(-3.2, -2.5, 3.2, 2.5), rect(-3.2, -2.5, 
                                                            3.2, 2.5), rect(-3, -3.5, 3, 3.3))
-                showCounts <- switch(nsets, function(counts, cex, cexCounts, adj, 
+                showCounts <- switch(nsets, function(counts, cex, adj, 
                                                      col, leg) {
                         text(2.3, -2.1, counts[1], cex = cexCounts, col = col, 
                              adj = adj)
                         text(0, 0, counts[2], cex = cexCounts, col = col, adj = adj)
                         if (show.include) text(-2.3, -2.1, leg, cex = cex, 
                                                col = col, adj = adj)
-                }, function(counts, cex, cexCounts, adj, col, leg) {
+                }, function(counts, cex, adj, col, leg) {
                         text(2.3, -2.1, counts[1], cex = cexCounts, col = col, 
                              adj = adj)
                         text(1.5, 0.1, counts[2], cex = cexCounts, col = col, adj = adj)
@@ -94,7 +94,7 @@ vennDiagram.mod<-function (object, include = "both", names = NULL, mar = rep(1,4
                         text(0, 0.1, counts[4], cex = cexCounts, col = col, adj = adj)
                         if (show.include) text(-2.3, -2.1, leg, cex = cex, 
                                                col = col, adj = adj)
-                }, function(counts, cex, cexCounts, adj, col, leg) {
+                }, function(counts, cex, adj, col, leg) {
                         text(2.5, -3, counts[1], cex = cexCounts, col = col, adj = adj)
                         text(0, -1.7, counts[2], cex = cexCounts, col = col, adj = adj)
                         text(1.5, 1, counts[3], cex = cexCounts, col = col, adj = adj)
