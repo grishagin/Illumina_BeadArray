@@ -1,13 +1,13 @@
 Treatment.Group	Cell.Line	Replicate	Sample.ID
 1	Control	HeLa	A	HeLa.Control
-2	Treatment1	HeLa	A	HeLa.Treatment1
-3	Treatment2	HeLa	A	HeLa.Treatment2
-4	Treatment3	HeLa	A	HeLa.Treatment3
+2	Treat1.Conc1	HeLa	A	HeLa.Treat1.Conc1
+3	Treat1.Conc2	HeLa	A	HeLa.Treat1.Conc2
+4	Treat2	HeLa	A	HeLa.Treat2
 5	Control	HeLa	B	HeLa.Control
-6	Treatment1	HeLa	B	HeLa.Treatment1
-7	Treatment2	HeLa	B	HeLa.Treatment2
-8	Treatment3	HeLa	B	HeLa.Treatment3
+6	Treat1.Conc1	HeLa	B	HeLa.Treat1.Conc1
+7	Treat1.Conc2	HeLa	B	HeLa.Treat1.Conc2
+8	Treat2	HeLa	B	HeLa.Treat2
 9	Control	HeLa	C	HeLa.Control
-10	Treatment1	HeLa	C	HeLa.Treatment1
-11	Treatment2	HeLa	C	HeLa.Treatment2
-12	Treatment3	HeLa	C	HeLa.Treatment3
+10	Treat1.Conc1	HeLa	C	HeLa.Treat1.Conc1
+11	Treat1.Conc2	HeLa	C	HeLa.Treat1.Conc2
+12	Treat2	HeLa	C	HeLa.Treat2
