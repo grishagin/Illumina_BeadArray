@@ -9,21 +9,21 @@ Repository contains each version in a separate folder. Current version is marked
 _code_Analysis_Illumina_BeadArray_from_IDAT-MAIN-v22.R
 
 #### Dependencies Folder 
-_code_FUNCTION#01__loadPackages-v1.R
-_code_FUNCTION#02_read.norm.filt.data-v2.R
-_code_FUNCTION#03_QC-v5.R
-_code_FUNCTION#04_design.Matrix.prepare-v1.R
-_code_FUNCTION#05_contrasts.Matrix.prepare-v2.R
-_code_FUNCTION#06_fit.data-v2.R
-_code_FUNCTION#07_produce.volcano.plot-v1.R
-_code_FUNCTION#08_make.volcano-v2.R
-_code_FUNCTION#09_venn-v2.R
-_code_FUNCTION#10_vennDiagram.mod-v1.R
-_code_FUNCTION#11_top.tables-v2.R
-_code_FUNCTION#12_produce.heatmaps-v2.R
-_code_FUNCTION#13_prep.heatmap.sort.data-v1-1.R
-_code_FUNCTION#14_plot.heatmap-v1-1.R
-_code_FUNCTION#15_heatmap.2.mod-v1-1.R
+_code_FUNCTION#01__loadPackages-v1.R  
+_code_FUNCTION#02_read.norm.filt.data-v2.R  
+_code_FUNCTION#03_QC-v5.R  
+_code_FUNCTION#04_design.Matrix.prepare-v1.R  
+_code_FUNCTION#05_contrasts.Matrix.prepare-v2.R  
+_code_FUNCTION#06_fit.data-v2.R  
+_code_FUNCTION#07_produce.volcano.plot-v1.R  
+_code_FUNCTION#08_make.volcano-v2.R  
+_code_FUNCTION#09_venn-v2.R  
+_code_FUNCTION#10_vennDiagram.mod-v1.R  
+_code_FUNCTION#11_top.tables-v2.R  
+_code_FUNCTION#12_produce.heatmaps-v2.R  
+_code_FUNCTION#13_prep.heatmap.sort.data-v1-1.R  
+_code_FUNCTION#14_plot.heatmap-v1-1.R  
+_code_FUNCTION#15_heatmap.2.mod-v1-1.R  
 
 #### Template for the sample description 
 samples.description-TEMPLATE.txt
@@ -32,8 +32,8 @@ samples.description-TEMPLATE.txt
 sample IDAT files
 
 ## Method description
-The script prompts for the folder with dependencies (defaults to current working directory).
-Then the script prompts for the folder with bead level data in the form of *.idat files, and a description of the samples as a text file.
+The script prompts for the folder with dependencies (defaults to current working directory).  
+Then the script prompts for the folder with bead level data in the form of *.idat files, and a description of the samples as a text file.  
 Sample IDAT files are provided, along with a template with their description.
   
 The data are then converted to ExpressionSetIllumina class, expression values are transformed to log2 scale, and then normalized by quantile method using the beadarray R package.  
