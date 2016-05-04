@@ -6,30 +6,32 @@ The repository provides means for the processing of Illumina BeadArray bead leve
 
 ## Contents
 
+
 #### _archive
 Previous versions.
 
+
 #### vX-X
-Current version of the script and dependencies.
-	##### dependencies    
-	All R functions.    
-	##### _code_Analysis_Illumina_BeadArray_from_IDAT-MAIN-vXX.R       
-	Main R script.
-	##### _code_Analysis_Illumina_BeadArray_from_IDAT-MAIN-vXX.Rexec    
-	"Executable" R script (to be opened with Rscript.exe).     
-	##### Parameters_vX-X.xlsx    
-	File with Analysis Parameters. Contents are self-explanatory.    
-    ##### phenoData_vX-X.xlsx    
-	File with Sample Description. Contents are self-explanatory.   
+Current version of the script and dependencies.    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**dependencies**    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All R functions.    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_code_Analysis_Illumina_BeadArray_from_IDAT-MAIN-vXX.R**       
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Main R script.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**_code_Analysis_Illumina_BeadArray_from_IDAT-MAIN-vXX.Rexec**    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Executable" R script (to be opened with Rscript.exe).     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Parameters_vX-X.xlsx**    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File with Analysis Parameters. Contents are self-explanatory.    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**phenoData_vX-X.xlsx**    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File with Sample Description. Contents are self-explanatory.   
 
 #### sample IDAT files
 Folder with sample Illumina BeadArray bead level data (*.idat files).
-
+   
 
 
 ## Method description   
-Prerequisites:
-1) R;
+Prerequisites:   
+1) R;    
 2) java.  
 The script will check for all the necessary packages, download and install them.  
 
